@@ -1,0 +1,20 @@
+{
+  "name": "stylelint-config-ttteam",
+  "version": "1.0.0",
+  "description": "stylelint config for team",
+  "main": "index.js",
+  "author": "Tatyana Tsvetkova <tsvetta@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "lint:fix": "eslint index.js --fix"
+  },
+  "dependencies": {
+    "stylelint": "^10.0.1",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-order": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-ttteam": "https://github.com/tsvetta/eslint-config-ttteam.git#v1.0.0"
+  }
+}
