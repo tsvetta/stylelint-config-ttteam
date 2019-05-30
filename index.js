@@ -23,7 +23,12 @@ module.exports = {
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
 
-
+    'property-no-unknown': [
+      true,
+      {
+        ignoreProperties: ['composes', 'compose-with'],
+      },
+    ],
     'order/order': [
       'custom-properties',
       'declarations',
@@ -33,6 +38,10 @@ module.exports = {
       {
         emptyLineBefore: 'always',
         properties: ['all'], // all: initial should be first
+      },
+      {
+        emptyLineBefore: 'always',
+        properties: ['composes'],
       },
       {
         emptyLineBefore: 'always',
